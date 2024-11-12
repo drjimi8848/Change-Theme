@@ -1,0 +1,32 @@
+:root{
+    --primary-color: black;
+    --secondart-color:white;
+}
+.dark-theme{
+    --primary-color: white;
+    --secondart-color: black;
+}
+body{
+    background-color: var(--secondart-color);
+    color: var(--primary-color);
+}
+#icon{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+    
+}
+#icondiv{
+    display: flex;
+    justify-content: end;
+    
+}
+#introtag{
+    margin-left: 10%;
+    font-size: 50px;
+    padding-top: 40vh;
+    background-color: var(--secondart-color);
+    color: var(--primary-color);
+}

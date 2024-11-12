@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id = "icondiv">
+            <img src="dark theme icon/moon.png" alt="day" id = "icon">
+        </div>
+        
+        <h1 id = "introtag">Hello Everyone I am Jimi Syangbo.</h1>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "dark theme icon/sun.png";
+            }
+            else(
+                icon.src = "dark theme icon/moon.png"
+            )
+        }
+    </script>
+</body>
+</html>
